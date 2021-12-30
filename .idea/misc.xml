@@ -3,9 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/activity_beranda.xml" value="0.184375" />
+        <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/activity_home.xml" value="0.184375" />
         <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/activity_pilihbuku.xml" value="0.184375" />
         <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/fragment_dashboard.xml" value="0.22" />
         <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/fragment_home.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/fragment_notifications.xml" value="0.184375" />
+        <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/fragment_pilihbuku.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/pilih_buku.xml" value="0.3926829268292683" />
         <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/pilihbuku.xml" value="0.184375" />
         <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/menu/bottom_nav_menu.xml" value="0.184375" />
       </map>
