@@ -9,34 +9,56 @@ import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import androidx.recyclerview.widget.LinearLayoutManager
 
 
-class HomeActivity : AppCompatActivity() {
-    var txtuser: EditText? = null
-    var txtpass: EditText? = null
+class HomeActivity : AppCompatActivity(), View.OnClickListener {
+
+
+
+    @Override
     public override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-        txtuser = findViewById<View>(R.id.user) as EditText
-        txtpass = findViewById<View>(R.id.pass) as EditText
 
         val buttonlogin = findViewById<View>(R.id.buttonlogin) as Button
-
-
-        buttonlogin.setOnClickListener {
-            if (txtuser!!.text.toString() == "kelompokG" && txtpass!!.text.toString() == "123") {
-                Toast.makeText(this@HomeActivity, "LOGIN BERHASIL", Toast.LENGTH_LONG).show()
-                startActivity(Intent(this@HomeActivity, BerandaActivity::class.java))
-
-
-            } else Toast.makeText(
-                this@HomeActivity,
-                "User atau Password Salah",
-                Toast.LENGTH_SHORT
-            ).show()
-        }
+        buttonlogin.setOnClickListener(this)
 
     }
-}
+        private fun validate(): Boolean {
+            var txtuser = findViewById<View>(R.id.user) as EditText
+            var txtpass = findViewById<View>(R.id.pass) as EditText
+            if (txtuser.text.toString().isEmpty()) {
+                txtuser.error = "Username Tidak Boleh Kosong"
+                return false
+            } else if (txtpass.text.toString().isEmpty()) {
+                txtpass.error = "Password Tidak Boleh Kosong"
+                return false
+            }
+            return true
+        }
+
+        override fun onClick(v: View?) {
+            when(v?.id){
+                R.id.buttonlogin->{
+                    if(validate()){
+                        Toast.makeText(applicationContext,"Berhasil",Toast.LENGTH_SHORT).show()
+                        val intent = Intent (this,BerandaActivity::class.java)
+                        startActivity(intent)
+                        finish()
+                    }
+                }
+            }
+        }
+
+
+
+
+
+
+//
+ }
+
+
 

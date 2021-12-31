@@ -9,13 +9,19 @@
         <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/activity_pilihbuku.xml" value="0.184375" />
         <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/fragment_dashboard.xml" value="0.22" />
         <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/fragment_home.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/fragment_item.xml" value="0.184375" />
+        <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/fragment_item_list.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/fragment_notifications.xml" value="0.184375" />
         <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/fragment_pilihbuku.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/item_buku.xml" value="0.184375" />
         <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/pilih_buku.xml" value="0.3926829268292683" />
         <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/pilihbuku.xml" value="0.184375" />
         <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/menu/bottom_nav_menu.xml" value="0.184375" />
       </map>
     </option>
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_item_list.xml" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
