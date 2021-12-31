@@ -15,7 +15,7 @@ class pilihbukuActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pilihbuku)
 
-        rvHeroes = findViewById(R.id.rv_heroes)
+       // rvHeroes = findViewById(R.id.rv_heroes)
         rvHeroes.setHasFixedSize(true)
 //        val back = findViewById<View>(R.id.iconback) as ImageButton
 //        back.setOnClickListener(this)

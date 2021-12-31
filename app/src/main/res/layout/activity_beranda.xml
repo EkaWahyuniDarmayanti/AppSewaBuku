@@ -12,12 +12,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-<!--        <androidx.recyclerview.widget.RecyclerView-->
-<!--            android:id="@+id/rv_heroes"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent"-->
-<!--            tools:listitem="@layout/item_buku" />-->
-
         <ImageButton
             android:id="@+id/iconback"
             android:layout_width="wrap_content"
@@ -42,15 +36,16 @@
             android:layout_marginLeft="29dp"
             android:layout_marginTop="55dp"/>
 
-        <EditText
-            android:id="@+id/cari"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="45dp"
-            android:background="@drawable/bagcari"
-            android:hint="Cari Universitas"
-            android:paddingHorizontal="50dp" />
+            <EditText
+                android:id="@+id/cari"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="45dp"
+                android:background="@drawable/bagcari"
+                android:hint="Cari Universitas"
+
+                android:paddingHorizontal="50dp" />
 
         <ImageButton
             android:id="@+id/unhas"

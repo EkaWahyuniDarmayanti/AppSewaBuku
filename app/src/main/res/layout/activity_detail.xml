@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+
+    <LinearLayout
+        android:id="@+id/taskbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/iconback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/iconback"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beranda"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="18dp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/sampul"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/taskbar"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/img_detail"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@drawable/gambardetail" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/img_detail"
+            android:background="@color/red"
+            android:paddingLeft="40dp"
+            android:text="Internasional Business"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_detail"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="40dp"
+            android:text="Cavusgil, Knight, dan Riesnberger"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/hargasewa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/judul"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:text="Harga Sewa"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/harga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hargasewa"
+            android:layout_marginLeft="40dp"
+            android:text="RP.20.000 / Bulan,"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/uang_jaminan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/judul"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@+id/harga"
+            android:text="Uang Jaminan"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/uang_jaminan"
+            android:layout_marginLeft="70dp"
+            android:layout_toEndOf="@id/harga"
+            android:text="Rp.20.000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/desk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/harga"
+            android:layout_marginLeft="40dp"
+            android:text="Setiap Bula, naik" />
+
+        <TextView
+            android:id="@+id/deskharga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/desk"
+            android:layout_marginLeft="40dp"
+            android:text="Rp.2000"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/garis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/deskharga"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/garis" />
+
+        <TextView
+            android:id="@+id/desk_buku"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/garis"
+            android:layout_marginLeft="40dp"
+            android:text="Deskripsi Buku"
+            android:layout_marginTop="20dp"
+            android:textSize="24sp" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>
