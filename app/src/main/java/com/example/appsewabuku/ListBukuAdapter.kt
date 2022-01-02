@@ -19,13 +19,13 @@ class ListBukuAdapter(private val listHero: ArrayList<buku>) : RecyclerView.Adap
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
-        TODO("Not yet implemented")
+
         val view: View = LayoutInflater.from(parent.context).inflate(R.layout.item_buku, parent, false)
         return ListViewHolder(view)
     }
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        TODO("Not yet implemented")
+
         val hero = listHero[position]
         Glide.with(holder.itemView.context)
             .load(hero.photo)

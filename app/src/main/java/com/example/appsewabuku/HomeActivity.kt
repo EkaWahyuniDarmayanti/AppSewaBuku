@@ -35,15 +35,21 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener {
             } else if (txtpass.text.toString().isEmpty()) {
                 txtpass.error = "Password Tidak Boleh Kosong"
                 return false
+
+            }else if (txtuser!!.text.toString() == "kelompokG" && txtpass!!.text.toString() == "123"){
+                Toast.makeText(this@HomeActivity, "LOGIN BERHASIL", Toast.LENGTH_LONG).show()
+                return true
+            }else{
+                Toast.makeText(this@HomeActivity, "user / password salah", Toast.LENGTH_LONG).show()
+                return false
             }
-            return true
+
         }
 
         override fun onClick(v: View?) {
             when(v?.id){
                 R.id.buttonlogin->{
                     if(validate()){
-                        Toast.makeText(applicationContext,"Berhasil",Toast.LENGTH_SHORT).show()
                         val intent = Intent (this,BerandaActivity::class.java)
                         startActivity(intent)
                         finish()

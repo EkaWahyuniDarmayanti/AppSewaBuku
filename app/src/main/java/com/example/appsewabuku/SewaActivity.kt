@@ -5,18 +5,16 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
-import android.widget.ImageButton
 
-class DetailActivity : AppCompatActivity(), View.OnClickListener {
-
+class SewaActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_detail)
+        setContentView(R.layout.activity_sewa)
 
         this.supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        val btn_sewa: Button = findViewById(R.id.sewa)
-        btn_sewa.setOnClickListener(this)
+        val btn_selanjutnya: Button = findViewById(R.id.selanjutnya)
+        btn_selanjutnya.setOnClickListener(this)
 
     }
 

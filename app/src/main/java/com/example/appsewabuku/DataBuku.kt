@@ -9,9 +9,13 @@ object DataBuku {
         "Kakas Pengembangan Perangkat Lunak",
         "Sistem Pendukung keputusan")
 
-    private val DetailBuku = arrayOf("Harga Sewa Rp.20.000/Bulsn, Pemakaian 4 Bulsn, Semua halaman masih utuh. kertas robek bagian hslsmsn 120")
+    private val DetailBuku = arrayOf("Harga Sewa Rp.20.000/Bulan, Pemakaian 4 Bulsn, Semua halaman masih utuh. kertas robek bagian hslsmsn 120",
+        "Harga Sewa Rp.50.000/Bulan, Pemakaian 2 Bulan, Semua halaman masih utuh. kertas robek bagian halaman 10",
+        "Harga Sewa Rp.30.000/Bulan, Pemakaian 9 Bulan, Semua halaman masih utuh. kertas robek bagian halaman 10",
+        "Harga Sewa Rp.100.000/Bulan, Pemakaian 7 Bulan, Semua halaman masih utuh. kertas robek bagian halaman 10")
 
-    private val GambarBuku = intArrayOf(R.drawable.buku1, R.drawable.buku2)
+    private val GambarBuku = intArrayOf(R.drawable.buku1,
+        R.drawable.buku2)
 
     val listData: ArrayList<buku>
         get() {

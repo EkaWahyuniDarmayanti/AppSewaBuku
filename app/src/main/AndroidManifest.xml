@@ -1,22 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.appsewabuku">
+    package="com.example.appsewabuku" >
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/logo"
-        android:label="BISMILLAH"
+        android:label="SEWA BUKU"
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SewaBuku">
+        android:theme="@style/Theme.SewaBuku" >
+        <activity
+            android:name=".SewaActivity"
+            android:parentActivityName=".DetailActivity"
+            android:label="Biodata"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="false"
+            android:label="History" />
         <activity
             android:name=".DetailActivity"
-            android:exported="false" />
-        <activity android:name=".BerandaActivity" />
-        <activity android:name=".pilihbukuActivity" />
+            android:exported="false"
+            android:label="Detail"
+            android:parentActivityName=".pilihbukuActivity" />
+        <activity
+            android:name=".BerandaActivity"
+            android:label="beranda"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".pilihbukuActivity"
+            android:label="pilih buku"
+            android:parentActivityName=".BerandaActivity" />
         <activity
             android:name=".HomeActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
