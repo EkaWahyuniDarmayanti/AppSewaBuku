@@ -15,7 +15,8 @@ object DataBuku {
         "Harga Sewa Rp.100.000/Bulan, Pemakaian 7 Bulan, Semua halaman masih utuh. kertas robek bagian halaman 10")
 
     private val GambarBuku = intArrayOf(R.drawable.buku1,
-        R.drawable.buku2)
+        R.drawable.buku2,
+        R.drawable.buku3, R.drawable.buku4, R.drawable.buku5, R.drawable.buku6, R.drawable.buku7)
 
     val listData: ArrayList<buku>
         get() {

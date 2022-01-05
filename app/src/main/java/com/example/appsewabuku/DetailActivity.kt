@@ -15,7 +15,10 @@ class DetailActivity : AppCompatActivity(), View.OnClickListener {
 
         this.supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        val btn_sewa: Button = findViewById(R.id.sewa)
+        val iconback: ImageButton = findViewById(R.id.iconback)
+        iconback.setOnClickListener(this)
+
+        val btn_sewa: Button = findViewById(R.id.toolbar)
         btn_sewa.setOnClickListener(this)
 
     }
@@ -23,7 +26,13 @@ class DetailActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View) {
         when (v.id) {
 
-            R.id.sewa -> {
+            R.id.iconback -> {
+                val intent = Intent(this, pilihbukuActivity::class.java)
+                startActivity(intent)
+                finish()
+            }
+
+            R.id.toolbar-> {
                 val intent = Intent(this, SewaActivity::class.java)
                 startActivity(intent)
                 finish()

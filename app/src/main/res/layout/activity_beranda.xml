@@ -7,8 +7,21 @@
     android:orientation="horizontal"
     tools:context=".BerandaActivity">
 
+    <ImageButton
+        android:id="@+id/iconback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sewa"
+        android:layout_marginBottom="10dp"
+        android:paddingRight="250dp"
+        android:src="@drawable/beranda"/>
+
+
+
+
 
     <ScrollView
+        android:layout_below="@+id/iconback"
         android:layout_width="match_parent"
         android:layout_marginTop="10dp"
         android:layout_height="match_parent">
@@ -193,6 +206,8 @@
                 android:layout_marginTop="10dp"
                 android:text="Universitas Hasanuddin"
                 android:textSize="12sp" />
+
+
 
         </RelativeLayout>
 

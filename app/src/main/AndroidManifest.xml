@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.appsewabuku" >
+    package="com.example.appsewabuku">
 
     <application
         android:allowBackup="true"
@@ -8,32 +8,59 @@
         android:label="SEWA BUKU"
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SewaBuku" >
+        android:theme="@style/Theme.SewaBuku">
+        <activity
+            android:name=".KonfirmasiActivity"
+            android:label="Detail Transaksi"
+            android:parentActivityName=".SewaActivity"
+            android:exported="true" />
         <activity
             android:name=".SewaActivity"
-            android:parentActivityName=".DetailActivity"
+            android:exported="true"
             android:label="Biodata"
-            android:exported="false" />
+            android:parentActivityName=".DetailActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DetailActivity" />
+        </activity>
         <activity
             android:name=".HistoryActivity"
-            android:exported="false"
-            android:label="History" />
+            android:exported="true"
+            android:label="History">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeActivity" />
+        </activity>
         <activity
             android:name=".DetailActivity"
-            android:exported="false"
+            android:exported="true"
             android:label="Detail"
-            android:parentActivityName=".pilihbukuActivity" />
+            android:parentActivityName=".pilihbukuActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".pilihbukuActivity" />
+        </activity>
         <activity
             android:name=".BerandaActivity"
-            android:label="beranda"
-            android:parentActivityName=".HomeActivity" />
+            android:label="Beranda"
+            android:exported="true"
+            android:parentActivityName=".HomeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeActivity" />
+        </activity>
         <activity
             android:name=".pilihbukuActivity"
-            android:label="pilih buku"
-            android:parentActivityName=".BerandaActivity" />
+            android:exported="true"
+            android:label="Pilih buku"
+            android:parentActivityName=".BerandaActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BerandaActivity" />
+        </activity>
         <activity
             android:name=".HomeActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

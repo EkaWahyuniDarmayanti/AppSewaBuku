@@ -11,6 +11,8 @@ class SewaActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sewa)
 
+        
+
         this.supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         val btn_selanjutnya: Button = findViewById(R.id.selanjutnya)
@@ -21,8 +23,8 @@ class SewaActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View) {
         when (v.id) {
 
-            R.id.sewa -> {
-                val intent = Intent(this, SewaActivity::class.java)
+            R.id.selanjutnya -> {
+                val intent = Intent(this, KonfirmasiActivity::class.java)
                 startActivity(intent)
                 finish()
             }

@@ -10,9 +10,12 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
-
+import android.widget.Toolbar
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+
+
+
 
 class BerandaActivity : AppCompatActivity(), View.OnClickListener {
 
@@ -22,9 +25,15 @@ class BerandaActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_beranda)
-        this.supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
+//        val toolbar = findViewById<View>(R.id.toolbar) as Toolbar
+//        setSupportActionBar(toolbar)
+//        getSupportActionBar()!!.setDisplayHomeAsUpEnabled(true);
 
 
+
+        val iconback: ImageButton = findViewById(R.id.iconback)
+        iconback.setOnClickListener(this)
 
         val btn_unhas: ImageButton = findViewById(R.id.unhas)
         btn_unhas.setOnClickListener(this)
@@ -40,6 +49,11 @@ class BerandaActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(v: View) {
         when (v.id) {
+            R.id.iconback -> {
+                val intent = Intent(this, pilihbukuActivity::class.java)
+                startActivity(intent)
+                finish()
+            }
 
             R.id.unhas -> {
                 val intent = Intent (this,pilihbukuActivity::class.java)

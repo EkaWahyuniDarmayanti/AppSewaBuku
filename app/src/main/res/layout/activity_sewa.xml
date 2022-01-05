@@ -7,7 +7,15 @@
     android:orientation="vertical"
     tools:context=".SewaActivity">
 
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sewa"
+        android:paddingRight="250dp"
+        android:src="@drawable/sewabuku"/>
+
     <EditText
+        android:id="@+id/nama"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="40dp"
@@ -16,6 +24,7 @@
         android:minHeight="48dp" />
 
     <EditText
+        android:id="@+id/nowa"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="40dp"
@@ -25,6 +34,7 @@
         android:minHeight="48dp" />
 
     <EditText
+        android:id="@+id/alamat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="40dp"
@@ -34,6 +44,7 @@
 
 
     <EditText
+        android:id="@+id/tglsewa"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="40dp"
@@ -43,6 +54,7 @@
         android:minHeight="48dp" />
 
     <EditText
+        android:id="@+id/tglkembali"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="40dp"
@@ -62,8 +74,6 @@
         android:layout_marginTop="20dp"
         android:layout_marginLeft="250dp"
         android:background="@drawable/buttonselanjutnya"/>
-
-
 
 
 

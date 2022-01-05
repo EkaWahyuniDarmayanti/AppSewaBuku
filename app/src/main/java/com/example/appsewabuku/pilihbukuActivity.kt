@@ -5,11 +5,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageButton
-import android.widget.SearchView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 class pilihbukuActivity : AppCompatActivity(), View.OnClickListener {
+
+    private lateinit var buku: RecyclerView
+    private val list = ArrayList<buku>()
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,6 +20,12 @@ class pilihbukuActivity : AppCompatActivity(), View.OnClickListener {
 
         this.supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
+//        buku = findViewById(R.id.item_nama_buku)
+//        buku.setHasFixedSize(true)
+
+
+        val iconback: ImageButton = findViewById(R.id.iconback)
+        iconback.setOnClickListener(this)
 
         val btn_buku1: ImageButton = findViewById(R.id.buku1)
         btn_buku1.setOnClickListener(this)
@@ -36,8 +44,24 @@ class pilihbukuActivity : AppCompatActivity(), View.OnClickListener {
 
     }
 
+//    private fun showRecyclerView(){
+//        buku.layoutManager = LinearLayoutManager(this)
+//        val listBukuAdapter = ListBukuAdapter(this)
+//        buku.adapter = listBukuAdapter
+//    }
+//
+//    override fun onClick(v: View?) {
+//        TODO("Not yet implemented")
+//    }
+
     override fun onClick(v: View) {
         when (v.id) {
+
+            R.id.iconback -> {
+                val intent = Intent(this, BerandaActivity::class.java)
+                startActivity(intent)
+                finish()
+            }
 
             R.id.buku1 -> {
                 val intent = Intent(this, DetailActivity::class.java)
