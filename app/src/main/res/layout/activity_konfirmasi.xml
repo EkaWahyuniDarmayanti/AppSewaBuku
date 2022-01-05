@@ -7,6 +7,7 @@
     tools:context=".KonfirmasiActivity">
 
     <ImageView
+        android:id="@+id/carddetail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="50dp"
@@ -67,9 +68,13 @@
 
 
     <ImageButton
+        android:id="@+id/selesai"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/selesai"/>
+        android:background="@drawable/selesai"
+        android:layout_below="@id/carddetail"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="55dp"/>
 
 
 

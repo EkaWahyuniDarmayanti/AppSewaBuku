@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DetailActivity">
+    tools:context=".buku2">
 
     <ImageButton
         android:id="@+id/iconback"
@@ -33,7 +33,7 @@
                     android:id="@+id/img_detail"
                     android:layout_width="match_parent"
                     android:layout_height="400dp"
-                    android:background="@drawable/gambardetail" />
+                    android:background="@drawable/buku3detail" />
 
                 <TextView
                     android:id="@+id/title"
@@ -42,7 +42,7 @@
                     android:layout_below="@id/img_detail"
                     android:background="@color/red"
                     android:paddingLeft="20dp"
-                    android:text="Internasional Business"
+                    android:text="Teknologi Informasi Pendidikan"
                     android:textColor="@color/white"
                     android:textSize="24sp"
                     android:textStyle="bold" />

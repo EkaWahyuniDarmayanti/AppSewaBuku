@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
+import android.widget.Toolbar
 
 class DetailActivity : AppCompatActivity(), View.OnClickListener {
 
@@ -13,7 +14,7 @@ class DetailActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail)
 
-        this.supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        //this.supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         val iconback: ImageButton = findViewById(R.id.iconback)
         iconback.setOnClickListener(this)

@@ -17,14 +17,11 @@
         android:src="@drawable/beranda"/>
 
 
-
-
-
     <ScrollView
-        android:layout_below="@+id/iconback"
         android:layout_width="match_parent"
-        android:layout_marginTop="10dp"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_below="@+id/iconback"
+        android:layout_marginTop="10dp">
 
         <RelativeLayout
 
@@ -44,8 +41,8 @@
                 android:id="@+id/labelUnhas"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="50dp"
                 android:layout_below="@+id/unhas"
+                android:layout_marginLeft="50dp"
                 android:layout_marginTop="10dp"
                 android:text="Universitas Hasanuddin"
                 android:textSize="12sp" />
@@ -62,11 +59,11 @@
                 android:id="@+id/labelUmi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_below="@+id/umi"
                 android:layout_marginLeft="230dp"
                 android:layout_marginTop="10dp"
-                android:layout_below="@+id/umi"
-                android:textSize="12sp"
-                android:text="Universitas Muslim In.." />
+                android:text="Universitas Muslim In.."
+                android:textSize="12sp" />
 
             <ImageButton
                 android:id="@+id/ugm"
@@ -82,21 +79,21 @@
                 android:id="@+id/labelUgm"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="50dp"
                 android:layout_below="@+id/ugm"
+                android:layout_marginLeft="50dp"
                 android:layout_marginTop="10dp"
-                android:textSize="12sp"
-                android:text="universtas Gadja Ma.." />
+                android:text="universtas Gadja Ma.."
+                android:textSize="12sp" />
 
             <ImageButton
                 android:id="@+id/pnup"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bagitem"
                 android:layout_below="@+id/labelUmi"
                 android:layout_marginLeft="230dp"
                 android:layout_marginTop="20dp"
-                android:src="@drawable/pnup"/>
+                android:background="@drawable/bagitem"
+                android:src="@drawable/pnup" />
 
             <TextView
                 android:id="@+id/labelPnup"
@@ -109,103 +106,125 @@
                 android:textSize="12sp" />
 
             <ImageButton
-                android:id="@+id/ub"
+                android:id="@+id/unpad"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/labelUgm"
                 android:layout_marginLeft="50dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/bagitem"
-                android:src="@drawable/ub" />
-
-            <TextView
-                android:id="@+id/labelUb"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/ub"
-                android:layout_marginLeft="50dp"
-                android:layout_marginTop="10dp"
-                android:text="universtas Gadja Ma.."
-                android:textSize="12sp" />
-
-            <ImageButton
-                android:id="@+id/unm"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/bagitem"
-                android:layout_below="@+id/labelPnup"
-                android:layout_marginLeft="230dp"
-                android:layout_marginTop="20dp"
-                android:src="@drawable/pnup"/>
-
-            <TextView
-                android:id="@+id/labelUnm"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/unm"
-                android:layout_marginLeft="230dp"
-                android:layout_marginTop="10dp"
-                android:text="Politeknik Ujung Pan.."
-                android:textSize="12sp" />
-
-            <ImageButton
-                android:id="@+id/ui"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/bagitem"
-                android:layout_below="@+id/labelUnm"
-                android:layout_marginLeft="230dp"
-                android:layout_marginTop="20dp"
-                android:src="@drawable/pnup"/>
-
-            <TextView
-                android:id="@+id/labelui"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/ui"
-                android:layout_marginLeft="230dp"
-                android:layout_marginTop="10dp"
-                android:text="Politeknik Ujung Pan.."
-                android:textSize="12sp" />
-
-            <ImageButton
-                android:id="@+id/unpad"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/labelUb"
-                android:layout_marginLeft="50dp"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/bagitem"
-                android:src="@drawable/ub" />
+                android:src="@drawable/unpad" />
 
             <TextView
                 android:id="@+id/labelunpad"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/unpad"
-                android:text="universitas Padjadjaran"
+                android:layout_marginLeft="50dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="50dp"/>
+                android:text="universtas Gadja Ma.."
+                android:textSize="12sp" />
 
             <ImageButton
-                android:id="@+id/unsri"
+                android:id="@+id/ub"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="50dp"
+                android:layout_below="@+id/labelPnup"
+                android:layout_marginLeft="230dp"
                 android:layout_marginTop="20dp"
-                android:layout_below="@+id/labelunpad"
                 android:background="@drawable/bagitem"
-                android:src="@drawable/unhas" />
+                android:src="@drawable/ub" />
 
             <TextView
-                android:id="@+id/labelunsri"
+                android:id="@+id/labelub"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="50dp"
-                android:layout_below="@+id/unsri"
+                android:layout_below="@+id/ub"
+                android:layout_marginLeft="230dp"
                 android:layout_marginTop="10dp"
-                android:text="Universitas Hasanuddin"
+                android:text="Universitas Negeri Ma.."
                 android:textSize="12sp" />
+
+            <ImageButton
+                android:id="@+id/unm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/labelub"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bagitem"
+                android:src="@drawable/unm" />
+
+            <TextView
+                android:id="@+id/labelunm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/unm"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="10dp"
+                android:text="Universitas Negeri Ma.."
+                android:textSize="12sp" />
+
+            <ImageButton
+                android:id="@+id/bosowa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/labelunpad"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bagitem"
+                android:src="@drawable/bosowa" />
+
+            <TextView
+                android:id="@+id/labelbosowa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bosowa"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:text="universitas Padjadjaran" />
+
+            <ImageButton
+                android:id="@+id/ui"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/labelbosowa"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bagitem"
+                android:src="@drawable/ui" />
+
+            <TextView
+                android:id="@+id/labelui"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ui"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:text="Universitas Indonesia"
+                android:textSize="12sp" />
+
+            <ImageButton
+                android:id="@+id/itb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/labelunm"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bagitem"
+                android:src="@drawable/itb" />
+
+            <TextView
+                android:id="@+id/labelitb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/itb"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="10dp"
+                android:text="Universitas Negeri Ma.."
+                android:textSize="12sp" />
+
+
 
 
 

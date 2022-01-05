@@ -4,12 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/activity_beranda.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/activity_buku2.xml" value="0.22" />
+        <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/activity_buku3.xml" value="0.12083333333333333" />
+        <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/activity_buku4.xml" value="0.13903985507246377" />
         <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/activity_detail.xml" value="0.22" />
         <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/activity_history.xml" value="0.14221014492753623" />
         <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/activity_home.xml" value="0.184375" />
         <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/activity_konfirmasi.xml" value="0.3333333333333333" />
-        <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
-        <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/activity_pilihbuku.xml" value="0.22" />
+        <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/activity_pilihbuku.xml" value="0.3920265780730897" />
         <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/activity_sewa.xml" value="0.22" />
         <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/fragment_blank.xml" value="0.22" />
         <entry key="..\:/Users/ASUS-PC/Documents/AppSewaBuku/app/src/main/res/layout/fragment_dashboard.xml" value="0.22" />

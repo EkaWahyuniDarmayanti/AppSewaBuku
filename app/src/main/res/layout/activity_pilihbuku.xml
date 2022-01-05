@@ -25,8 +25,6 @@
             android:layout_height="match_parent">
 
 
-
-
             <ImageButton
                 android:id="@+id/buku1"
                 android:layout_width="wrap_content"
@@ -84,6 +82,7 @@
                 android:src="@drawable/buku2" />
 
             <TextView
+                android:id="@+id/judulbuku2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
@@ -97,20 +96,20 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/garis1"
+                android:layout_below="@id/judulbuku2"
                 android:layout_marginLeft="10dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="10dp"
                 android:layout_toEndOf="@+id/buku1"
-                android:text="Cavusgil, Knight, Riesnberger" />
+                android:text="Syamsul Arifin, Dian Ediana RAE" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/garis1"
+                android:layout_below="@id/judulbuku2"
                 android:layout_marginLeft="10dp"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="30dp"
                 android:layout_toEndOf="@+id/buku1"
-                android:text="Edisi Kedua" />
+                android:text="Edisi Pertama" />
 
             <ImageView
                 android:id="@+id/garis2"
@@ -197,14 +196,14 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="30dp"
                 android:layout_toEndOf="@+id/buku1"
-                android:text="Cavusgil, Knight, Riesnberger" />
+                android:text="Dewi Rahmawati, M.Kom, M.MOS,." />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/garis3"
                 android:layout_marginLeft="10dp"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="70dp"
                 android:layout_toEndOf="@+id/buku1"
                 android:text="Edisi Kedua" />
 
@@ -274,7 +273,7 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/bagbuku"
-                android:src="@drawable/buku1" />
+                android:src="@drawable/buku7" />
 
             <TextView
                 android:layout_width="wrap_content"

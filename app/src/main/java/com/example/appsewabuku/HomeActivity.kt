@@ -25,6 +25,8 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener {
         val buttonlogin = findViewById<View>(R.id.buttonlogin) as Button
         buttonlogin.setOnClickListener(this)
 
+
+
     }
         private fun validate(): Boolean {
             var txtuser = findViewById<View>(R.id.user) as EditText

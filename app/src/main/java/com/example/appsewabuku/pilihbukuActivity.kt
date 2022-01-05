@@ -10,18 +10,14 @@ import androidx.recyclerview.widget.RecyclerView
 
 class pilihbukuActivity : AppCompatActivity(), View.OnClickListener {
 
-    private lateinit var buku: RecyclerView
-    private val list = ArrayList<buku>()
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pilihbuku)
 
-        this.supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        //this.supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-//        buku = findViewById(R.id.item_nama_buku)
-//        buku.setHasFixedSize(true)
 
 
         val iconback: ImageButton = findViewById(R.id.iconback)
@@ -42,17 +38,12 @@ class pilihbukuActivity : AppCompatActivity(), View.OnClickListener {
         val btn_buku5: ImageButton = findViewById(R.id.buku5)
         btn_buku5.setOnClickListener(this)
 
+        val btn_buku6: ImageButton = findViewById(R.id.buku6)
+        btn_buku6.setOnClickListener(this)
+
+
     }
 
-//    private fun showRecyclerView(){
-//        buku.layoutManager = LinearLayoutManager(this)
-//        val listBukuAdapter = ListBukuAdapter(this)
-//        buku.adapter = listBukuAdapter
-//    }
-//
-//    override fun onClick(v: View?) {
-//        TODO("Not yet implemented")
-//    }
 
     override fun onClick(v: View) {
         when (v.id) {
@@ -70,24 +61,30 @@ class pilihbukuActivity : AppCompatActivity(), View.OnClickListener {
             }
 
             R.id.buku2 -> {
-                val intent = Intent(this, DetailActivity::class.java)
+                val intent = Intent(this, buku2::class.java)
                 startActivity(intent)
                 finish()
             }
 
             R.id.buku3 -> {
-                val intent = Intent(this, DetailActivity::class.java)
+                val intent = Intent(this, buku3::class.java)
                 startActivity(intent)
                 finish()
             }
 
             R.id.buku4 -> {
-                val intent = Intent(this, DetailActivity::class.java)
+                val intent = Intent(this, buku4::class.java)
                 startActivity(intent)
                 finish()
             }
 
             R.id.buku5 -> {
+                val intent = Intent(this, DetailActivity::class.java)
+                startActivity(intent)
+                finish()
+            }
+
+            R.id.buku6 -> {
                 val intent = Intent(this, DetailActivity::class.java)
                 startActivity(intent)
                 finish()

@@ -10,10 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SewaBuku">
         <activity
+            android:name=".buku4"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".buku3"
+            android:exported="false" />
+        <activity
+            android:name=".buku2"
+            android:exported="false" />
+        <activity
             android:name=".KonfirmasiActivity"
+            android:exported="true"
             android:label="Detail Transaksi"
-            android:parentActivityName=".SewaActivity"
-            android:exported="true" />
+            android:parentActivityName=".SewaActivity" />
         <activity
             android:name=".SewaActivity"
             android:exported="true"
@@ -42,8 +54,8 @@
         </activity>
         <activity
             android:name=".BerandaActivity"
-            android:label="Beranda"
             android:exported="true"
+            android:label="Beranda"
             android:parentActivityName=".HomeActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
