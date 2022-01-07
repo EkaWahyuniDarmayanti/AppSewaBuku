@@ -23,8 +23,9 @@
         android:textStyle="bold"
         android:textSize="24sp"
         android:textColor="@color/black"
-        android:layout_marginHorizontal="110dp"
-        android:layout_marginTop="70dp"/>
+        android:gravity="center"
+        android:layout_marginHorizontal="90dp"
+        android:layout_marginTop="50dp"/>
 
     <ImageButton
         android:id="@+id/selesai"

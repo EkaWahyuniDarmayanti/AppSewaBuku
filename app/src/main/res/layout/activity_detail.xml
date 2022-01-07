@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/sewa"
-        android:paddingRight="200dp"
+        android:paddingRight="230dp"
         android:src="@drawable/detailbukuback" />
 
     <ScrollView
@@ -130,7 +130,7 @@
                     android:layout_below="@id/det"
                     android:id="@+id/deskdetail"
                     android:layout_width="match_parent"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginHorizontal="20dp"
                     android:orientation="vertical"
                     android:layout_marginBottom="100dp"
                     android:layout_height="wrap_content">
@@ -176,7 +176,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="658dp"
+        android:layout_marginTop="640dp"
         android:background="@drawable/sewa"
         android:gravity="center"
         android:minHeight="?attr/actionBarSize"

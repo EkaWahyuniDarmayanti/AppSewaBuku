@@ -7,10 +7,10 @@ import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
 
-class buku2 : AppCompatActivity(), View.OnClickListener {
+class buku6 : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_buku2)
+        setContentView(R.layout.activity_buku6)
 
 
         val iconback: ImageButton = findViewById(R.id.iconback)

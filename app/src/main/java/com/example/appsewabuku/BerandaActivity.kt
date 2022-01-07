@@ -47,7 +47,7 @@ class BerandaActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View) {
         when (v.id) {
             R.id.iconback -> {
-                val intent = Intent(this, pilihbukuActivity::class.java)
+                val intent = Intent(this, HomeActivity::class.java)
                 startActivity(intent)
                 finish()
             }

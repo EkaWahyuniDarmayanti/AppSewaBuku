@@ -244,7 +244,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="30dp"
                 android:layout_toEndOf="@+id/buku1"
-                android:text="Cavusgil, Knight, Riesnberger" />
+                android:text="Mohammad Jamil" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -293,7 +293,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="30dp"
                 android:layout_toEndOf="@+id/buku1"
-                android:text="Cavusgil, Knight, Riesnberger" />
+                android:text="Rhinto Rante Rerung" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -302,7 +302,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="50dp"
                 android:layout_toEndOf="@+id/buku1"
-                android:text="Edisi Kedua" />
+                android:text="Edisi Pertama" />
 
             <ImageView
                 android:id="@+id/garis6"

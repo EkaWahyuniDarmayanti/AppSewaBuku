@@ -9,18 +9,21 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.SewaBuku">
-
+        <activity
+            android:name=".buku6"
+            android:exported="false" />
+        <activity
+            android:name=".buku5"
+            android:exported="false" />
         <activity
             android:name=".buku4"
             android:exported="false" />
-
         <activity
             android:name=".buku3"
             android:exported="false" />
         <activity
             android:name=".buku2"
             android:exported="false" />
-
         <activity
             android:name=".HistoryActivity"
             android:exported="true"
@@ -37,6 +40,15 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".pilihbukuActivity" />
+        </activity>
+        <activity
+            android:name=".KonfirmasiActivity"
+            android:exported="true"
+            android:label="Detail"
+            android:parentActivityName=".DetailActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DetailActivity" />
         </activity>
         <activity
             android:name=".BerandaActivity"

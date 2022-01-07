@@ -68,13 +68,13 @@ class pilihbukuActivity : AppCompatActivity(), View.OnClickListener {
             }
 
             R.id.buku5 -> {
-                val intent = Intent(this, DetailActivity::class.java)
+                val intent = Intent(this, buku5::class.java)
                 startActivity(intent)
                 finish()
             }
 
             R.id.buku6 -> {
-                val intent = Intent(this, DetailActivity::class.java)
+                val intent = Intent(this, buku6::class.java)
                 startActivity(intent)
                 finish()
             }
