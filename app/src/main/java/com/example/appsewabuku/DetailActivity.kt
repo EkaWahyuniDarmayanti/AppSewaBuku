@@ -34,7 +34,7 @@ class DetailActivity : AppCompatActivity(), View.OnClickListener {
             }
 
             R.id.toolbar-> {
-                val intent = Intent(this, SewaActivity::class.java)
+                val intent = Intent(this, KonfirmasiActivity::class.java)
                 startActivity(intent)
                 finish()
             }

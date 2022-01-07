@@ -7,28 +7,47 @@
     tools:context=".HistoryActivity">
 
     <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="16dp"
+        android:id="@+id/pinjam"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:background="#FF0000"
+        android:gravity="center"
         android:text="Peminjaman"
-        android:textColor="@color/white"
-        android:background="@drawable/bagfragment"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.107" />
+
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/kembali"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:background="#A40000"
+        android:gravity="center"
+        android:text="Pengembalian"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/pinjam"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageButton
+        android:id="@+id/beranda"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="25dp"
-        android:background="@drawable/bagfragment"
-        android:text="Pengembalian"
-        android:textColor="@color/white"
+        android:layout_marginBottom="37dp"
+        android:src="@drawable/beranda"
+        app:layout_constraintBottom_toTopOf="@+id/flfragment"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toEndOf="@+id/kembali"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <FrameLayout
         android:id="@+id/flfragment"

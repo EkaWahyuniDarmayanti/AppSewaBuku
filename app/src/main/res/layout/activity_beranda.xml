@@ -14,7 +14,7 @@
         android:background="@drawable/sewa"
         android:layout_marginBottom="10dp"
         android:paddingRight="250dp"
-        android:src="@drawable/beranda"/>
+        android:src="@drawable/home"/>
 
 
     <ScrollView

@@ -59,13 +59,6 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener {
                 }
             }
         }
-
-
-
-
-
-
-//
  }
 
 

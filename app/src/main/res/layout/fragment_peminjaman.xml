@@ -52,24 +52,6 @@
             android:textColor="@color/black"
             android:textSize="8sp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/sewa"
-            android:layout_marginLeft="260dp"
-            android:layout_marginTop="10dp"
-            android:text="Detail"
-            android:textColor="@color/black" />
-
-        <ImageButton
-            android:id="@+id/detail1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/sewa"
-            android:layout_toEndOf="@id/judul"
-            android:layout_marginLeft="20dp"
-            android:src="@drawable/ic_baseline_navigate_next_24"/>
-
 
         <ImageButton
             android:id="@+id/history2"
@@ -117,23 +99,6 @@
             android:textColor="@color/black"
             android:textSize="8sp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/sewa2"
-        android:layout_marginLeft="260dp"
-        android:layout_marginTop="10dp"
-        android:text="Detail"
-        android:textColor="@color/black" />
-
-    <ImageButton
-        android:id="@+id/detail2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/sewa2"
-        android:layout_toEndOf="@id/judul"
-        android:layout_marginLeft="20dp"
-        android:src="@drawable/ic_baseline_navigate_next_24"/>
 
 
 

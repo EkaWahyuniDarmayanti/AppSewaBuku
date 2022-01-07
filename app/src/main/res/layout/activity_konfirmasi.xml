@@ -12,67 +12,26 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="50dp"
         android:layout_marginTop="50dp"
-        android:background="@drawable/detailtransaksi" />
+        android:background="@drawable/gambarbag" />
 
     <TextView
         android:id="@+id/detailtransaksi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Detail Transaksi"
+        android:text="Berhasil Disewa"
+        android:layout_below="@id/carddetail"
         android:textStyle="bold"
         android:textSize="24sp"
         android:textColor="@color/black"
         android:layout_marginHorizontal="110dp"
         android:layout_marginTop="70dp"/>
 
-
-    <TextView
-        android:layout_margin="15dp"
-        android:id="@+id/tv_data1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Data 1"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
-
-    <TextView
-        android:layout_margin="15dp"
-        android:id="@+id/tv_data2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Data 2"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
-
-    <TextView
-        android:layout_margin="15dp"
-        android:id="@+id/tv_data3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Data 1"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
-
-    <TextView
-        android:layout_margin="15dp"
-        android:id="@+id/tv_data4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Data 2"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
-
-    <TextView
-        android:layout_margin="15dp"
-        android:id="@+id/tv_data5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Data 2"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
-
-
     <ImageButton
         android:id="@+id/selesai"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/selesai"
-        android:layout_below="@id/carddetail"
+        android:layout_below="@id/detailtransaksi"
         android:layout_marginTop="50dp"
         android:layout_marginHorizontal="55dp"/>
 
