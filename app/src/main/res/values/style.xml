@@ -3,7 +3,7 @@
     <style name="sewabuku">
 
         <item name="android:textSize">
-            48sp
+            40sp
         </item>
 
         <item name="android:textColor">
@@ -17,7 +17,7 @@
     <style name="selamat_dat">
 
         <item name="android:textSize">
-            24sp
+            20sp
         </item>
 
         <item name="android:textColor">

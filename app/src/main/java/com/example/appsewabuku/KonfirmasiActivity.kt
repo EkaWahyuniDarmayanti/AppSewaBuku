@@ -9,8 +9,7 @@ import android.widget.ImageButton
 import android.widget.TextView
 import android.widget.Toast
 
-lateinit var txtview : TextView
-lateinit var array1 : TextView
+
 
 class KonfirmasiActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {

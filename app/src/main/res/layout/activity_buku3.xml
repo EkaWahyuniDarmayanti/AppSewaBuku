@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/sewa"
-        android:paddingRight="250dp"
+        android:paddingRight="200dp"
         android:src="@drawable/detailbukuback" />
 
     <ScrollView
